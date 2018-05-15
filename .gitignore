@@ -21,8 +21,6 @@ yarn-error.log*
 
 # IDE
 .idea
-.eslintrc
-.prettierrc
 
 # npm
 package-lock.json
