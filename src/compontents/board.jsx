@@ -29,15 +29,9 @@ class Board extends React.Component {
 }
 
 Board.propTypes = {
-  squares: PropTypes.arrayOf(Square),
-  onClick: PropTypes.func,
-  size: PropTypes.number,
-};
-
-Board.defaultProps = {
-  squares: [],
-  onClick: () => undefined,
-  size: 0,
+  squares: PropTypes.arrayOf(Square).isRequired,
+  onClick: PropTypes.func.isRequired,
+  size: PropTypes.number.isRequired,
 };
 
 export { Board };
