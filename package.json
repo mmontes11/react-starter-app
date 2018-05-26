@@ -4,17 +4,23 @@
   "private": true,
   "main": "dist/index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "lint": "eslint --ignore-path .gitignore . --ext js --ext jsx",
     "lint:fix": "npm run lint -- --fix",
     "clean": "rm -rf dist/*",
-    "prebuild": "npm run clean",
-    "build": "webpack --mode production"
+    "prebuild": "npm run lint && npm run clean",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "dependencies": {
+    "cross-env": "^5.1.6",
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
     "shortid": "^2.2.8"
   },
   "devDependencies": {
@@ -23,6 +29,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
     "eslint-config-mmontes11-react": "^1.0.3",
     "html-loader": "^0.5.5",

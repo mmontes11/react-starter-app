@@ -8,8 +8,12 @@ const Square = props => (
 );
 
 Square.propTypes = {
-  value: PropTypes.string.isRequired,
+  value: PropTypes.string,
   onClick: PropTypes.func.isRequired,
 };
 
-export { Square };
+Square.defaultProps = {
+  value: null,
+};
+
+export default Square;

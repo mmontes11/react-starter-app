@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { BoardRow } from "./boardRow";
-import { Square } from "./square";
+import BoardRow from "./boardRow";
+import Square from "./square";
 
 class Board extends React.Component {
   _renderSquare(squareIndex) {
@@ -16,9 +16,9 @@ class Board extends React.Component {
   render() {
     const rows = [];
     let squareIndex = 0;
-    for (let i = 0; i < this.props.size; i += 1) {
+    for (let i = 0; i < 3; i += 1) {
       const squares = [];
-      for (let j = 0; j < this.props.size; j += 1) {
+      for (let j = 0; j < 3; j += 1) {
         squares.push(this._renderSquare(squareIndex));
         squareIndex += 1;
       }
@@ -31,7 +31,6 @@ class Board extends React.Component {
 Board.propTypes = {
   squares: PropTypes.arrayOf(Square).isRequired,
   onClick: PropTypes.func.isRequired,
-  size: PropTypes.number.isRequired,
 };
 
-export { Board };
+export default Board;
