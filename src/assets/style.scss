@@ -3,7 +3,8 @@ body {
   margin: 20px;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 30px;
 }
 
@@ -30,21 +31,21 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 34px;
-}
-
-.square:focus {
-  outline: none;
-}
-
-.kbd-navigation .square:focus {
-  background: #ddd;
+  &:focus {
+    outline: none;
+    .kbd-navigation {
+      background: #ddd;
+    }
+  }
 }
 
 .game {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .game-info {
   margin-left: 20px;
+  justify-content: flex-start;
 }

@@ -3,6 +3,8 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+const inProduction = process.env.NODE_ENV === "production";
+
 module.exports = {
   entry: "./src/index.js",
   output: {
@@ -26,19 +28,19 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/,
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
+        test: /\.s?[ac]ss$/,
+        use: [inProduction ? MiniCssExtractPlugin.loader : "style-loader", "css-loader", "sass-loader"],
       },
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx", ".css"],
+    extensions: [".js", ".jsx", ".scss", ".sass", ".css"],
     modules: ["./src/", "node_modules"],
   },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./public/index.html",
-      filename: "./index.html",
+      filename: "index.html",
     }),
     new MiniCssExtractPlugin({
       filename: "style.css",
