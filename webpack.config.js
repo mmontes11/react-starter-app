@@ -31,6 +31,10 @@ module.exports = {
         test: /\.s?[ac]ss$/,
         use: [inProduction ? MiniCssExtractPlugin.loader : "style-loader", "css-loader", "sass-loader"],
       },
+      {
+        test: /\.ico$/,
+        loader: "file-loader?name=[name].[ext]",
+      },
     ],
   },
   resolve: {
@@ -40,6 +44,7 @@ module.exports = {
   plugins: [
     new HtmlWebPackPlugin({
       template: "./public/index.html",
+      favicon: "./src/assets/favicon.ico",
       filename: "index.html",
     }),
     new MiniCssExtractPlugin({
