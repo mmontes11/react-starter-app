@@ -1,6 +1,7 @@
 body {
-  font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  font: 14px monospace, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 ol,
@@ -39,7 +40,34 @@ ul {
   }
 }
 
+.header {
+  text-align: center;
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.header-title {
+  font-size: 1.5em;
+}
+
+@keyframes header-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-logo {
+  animation: header-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
 .game {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;

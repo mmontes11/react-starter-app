@@ -32,8 +32,17 @@ module.exports = {
         use: [inProduction ? MiniCssExtractPlugin.loader : "style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.ico$/,
-        loader: "file-loader?name=[name].[ext]",
+        test: /\.(png|jp(e*)g|svg)$/,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 4000,
+              name: "[name].[ext]",
+              outputPath: "assets",
+            },
+          },
+        ],
       },
     ],
   },
