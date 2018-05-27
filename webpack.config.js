@@ -2,6 +2,7 @@ const webpack = require("webpack");
 const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const ManifestPlugin = require("webpack-manifest-plugin");
 
 const inProduction = process.env.NODE_ENV === "production";
 
@@ -58,6 +59,16 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "style.css",
+    }),
+    new ManifestPlugin({
+      filename: "manifest.json",
+      seed: {
+        short_name: "React starter app",
+        name: "React starter app",
+        display: "standalone",
+        theme_color: "#000000",
+        background_color: "#ffffff",
+      },
     }),
     new webpack.DefinePlugin({
       "process.env": {
