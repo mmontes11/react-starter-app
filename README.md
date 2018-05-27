@@ -1,3 +1,3 @@
-# react-tutorial
+# react-starter-app
 
-[React tutorial](https://reactjs.org/tutorial/tutorial.html)
+WIP
