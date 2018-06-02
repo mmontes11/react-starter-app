@@ -1,3 +1,5 @@
+$react-blue: #61dafb;
+
 body {
   font: 14px monospace, sans-serif;
   margin: 0;
@@ -7,6 +9,15 @@ body {
 ol,
 ul {
   padding-left: 30px;
+}
+
+a {
+  color: $react-blue;
+  text-decoration: none;
+  &:hover,
+  &:active {
+    color: grey;
+  }
 }
 
 .board-row:after {
@@ -66,6 +77,20 @@ ul {
   height: 80px;
 }
 
+.header-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-link {
+  margin-left: 20px;
+}
+
+.header-link-active {
+  color: white;
+}
+
 .game {
   margin-top: 20px;
   display: flex;
@@ -75,4 +100,12 @@ ul {
 
 .game-info {
   margin-left: 20px;
+}
+
+.about {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }

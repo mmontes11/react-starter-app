@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import shortid from "shortid";
 import Board from "../components/board";
@@ -85,4 +86,4 @@ const mapStateToProps = ({ step, xIsNext, history }) => {
   };
 };
 
-export default connect(mapStateToProps, { stepForward, jumpToStep, nextPlayer, setHistory })(Game);
+export default withRouter(connect(mapStateToProps, { stepForward, jumpToStep, nextPlayer, setHistory })(Game));
