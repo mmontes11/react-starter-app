@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Game from "./game";
-import About from "../components/about";
+import Game from "../containers/game";
+import About from "./about";
 
 const Main = () => (
   <main>
