@@ -7,7 +7,7 @@
   "keywords": ["react", "redux", "sass", "eslint", "webpack"],
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
-    "lint": "eslint --ignore-path .gitignore . --ext js --ext jsx",
+    "lint": "eslint --ignore-path .gitignore . --ext js,jsx",
     "lint:fix": "npm run lint -- --fix",
     "clean": "rm -rf dist/*",
     "prebuild": "npm run lint && npm run clean",
