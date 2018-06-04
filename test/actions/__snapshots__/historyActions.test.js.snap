@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`History actions Set history Dispatches a set history action 1`] = `
+Object {
+  "squareIndex": 0,
+  "step": 0,
+  "symbol": "X",
+  "type": "SET_HISTORY",
+}
+`;

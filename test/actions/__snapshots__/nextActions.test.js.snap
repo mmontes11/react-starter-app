@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Next actions Next player Dispatches next player actions 1`] = `
+Array [
+  Array [
+    Object {
+      "step": 1,
+      "type": "NEXT_PLAYER",
+    },
+  ],
+  Array [
+    Object {
+      "step": 2,
+      "type": "NEXT_PLAYER",
+    },
+  ],
+]
+`;
+
+exports[`Next actions Next player Dispatches next player actions 2`] = `
+Array [
+  Array [],
+  Array [],
+]
+`;
