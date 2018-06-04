@@ -1,4 +1,4 @@
-import { nextPlayer } from "../../src/actions/next";
+import { nextPlayer } from "actions/next";
 
 describe("actions/next", () => {
   describe("nextPlayer", () => {

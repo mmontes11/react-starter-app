@@ -1,5 +1,5 @@
-import { SET_HISTORY } from "../constants/actionTypes/history";
-import { getCurrentStepData } from "../helpers/ticTacToe";
+import { SET_HISTORY } from "constants/actionTypes/history";
+import { getCurrentStepData } from "helpers/ticTacToe";
 
 const initialState = [
   {

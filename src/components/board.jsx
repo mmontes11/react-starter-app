@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import BoardRow from "./boardRow";
-import Square from "./square";
+import BoardRow from "components/boardRow";
+import Square from "components/square";
 
 class Board extends React.Component {
   _renderSquare(squareIndex) {

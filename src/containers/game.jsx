@@ -3,11 +3,11 @@ import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import shortid from "shortid";
-import Board from "../components/board";
-import { stepForward, jumpToStep } from "../actions/step";
-import { nextPlayer } from "../actions/next";
-import { setHistory } from "../actions/history";
-import { getCurrentStepData } from "../helpers/ticTacToe";
+import Board from "components/board";
+import { stepForward, jumpToStep } from "actions/step";
+import { nextPlayer } from "actions/next";
+import { setHistory } from "actions/history";
+import { getCurrentStepData } from "helpers/ticTacToe";
 
 class Game extends React.Component {
   _getSymbolForCurrentPlayer() {

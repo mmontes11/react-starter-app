@@ -1,4 +1,4 @@
-import { NEXT_PLAYER } from "../constants/actionTypes/next";
+import { NEXT_PLAYER } from "constants/actionTypes/next";
 
 const initialState = true;
 

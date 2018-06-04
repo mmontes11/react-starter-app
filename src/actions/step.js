@@ -1,4 +1,4 @@
-import * as types from "../constants/actionTypes/step";
+import * as types from "constants/actionTypes/step";
 
 export const stepForward = () => ({ type: types.STEP_FORWARD });
 

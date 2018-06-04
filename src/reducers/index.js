@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
-import step from "./step";
-import next from "./next";
-import history from "./history";
+import step from "reducers/step";
+import next from "reducers/next";
+import history from "reducers/history";
 
 const rootReducer = combineReducers({
   step,
