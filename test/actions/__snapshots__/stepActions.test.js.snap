@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step actions Jump to step Creates a jump to step action 1`] = `
+Object {
+  "step": 1,
+  "type": "JUMP_TO_STEP",
+}
+`;
+
+exports[`Step actions Step forward Creates a step forward action 1`] = `
+Object {
+  "type": "STEP_FORWARD",
+}
+`;
