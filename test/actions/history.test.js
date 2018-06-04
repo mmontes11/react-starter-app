@@ -1,4 +1,4 @@
-import { setHistory } from "../../src/actions/historyAction";
+import { setHistory } from "../../src/actions/history";
 
 describe("History actions", () => {
   describe("Set history", () => {

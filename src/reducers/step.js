@@ -1,4 +1,4 @@
-import { STEP_FORWARD, JUMP_TO_STEP } from "../constants/stepActionTypes";
+import { STEP_FORWARD, JUMP_TO_STEP } from "../constants/actionTypes/step";
 
 const initialState = 0;
 

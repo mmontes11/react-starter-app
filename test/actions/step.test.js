@@ -1,4 +1,4 @@
-import { stepForward, jumpToStep } from "../../src/actions/stepActions";
+import { stepForward, jumpToStep } from "../../src/actions/step";
 
 describe("Step actions", () => {
   describe("Step forward", () => {

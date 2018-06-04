@@ -1,4 +1,4 @@
-import { SET_HISTORY } from "../constants/historyActionTypes";
+import { SET_HISTORY } from "../constants/actionTypes/history";
 import { getCurrentStepData } from "../helpers/ticTacToe";
 
 const initialState = [
