@@ -6,9 +6,12 @@ body {
   padding: 0;
 }
 
-ol,
 ul {
   padding-left: 30px;
+}
+
+li {
+  margin-top: 5px;
 }
 
 a {
@@ -100,6 +103,16 @@ a {
 
 .game-info {
   margin-left: 20px;
+}
+
+.button-moves {
+  background-color: $react-blue;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .about {
