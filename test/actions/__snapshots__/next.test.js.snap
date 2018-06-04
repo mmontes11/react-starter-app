@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Next actions Next player Dispatches next player actions 1`] = `
+exports[`actions/next nextPlayer dispatches next player actions 1`] = `
 Array [
   Array [
     Object {
@@ -17,7 +17,7 @@ Array [
 ]
 `;
 
-exports[`Next actions Next player Dispatches next player actions 2`] = `
+exports[`actions/next nextPlayer dispatches next player actions 2`] = `
 Array [
   Array [],
   Array [],

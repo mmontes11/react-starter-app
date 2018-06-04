@@ -1,8 +1,8 @@
 import { nextPlayer } from "../../src/actions/next";
 
-describe("Next actions", () => {
-  describe("Next player", () => {
-    it("Dispatches next player actions", () => {
+describe("actions/next", () => {
+  describe("nextPlayer", () => {
+    it("dispatches next player actions", () => {
       const thunk = nextPlayer();
       const dispatch = jest.fn();
       let step = 0;
