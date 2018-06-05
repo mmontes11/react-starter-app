@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reducers/index combines other reducers 1`] = `[Function]`;
+
+exports[`reducers/index has a default state 1`] = `
+Object {
+  "history": "INITIAL_HISTORY",
+  "step": "INITIAL_STEP",
+  "xIsNext": "INITIAL_NEXT",
+}
+`;
+
+exports[`reducers/index reduces ACTION 1`] = `
+Object {
+  "history": "STATE_HISTORY",
+  "step": "STATE_STEP",
+  "xIsNext": "STATE_NEXT",
+}
+`;
+
+exports[`reducers/index reduces nothing 1`] = `
+Object {
+  "history": "INITIAL_HISTORY",
+  "step": "INITIAL_STEP",
+  "xIsNext": "INITIAL_NEXT",
+}
+`;
