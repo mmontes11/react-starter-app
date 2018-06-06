@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/about renders an about 1`] = `
+<div
+  className="about"
+>
+  <p>
+    Built by
+     
+    <a
+      href="https://mmontes11.github.io/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Martín Montes
+    </a>
+    .
+  </p>
+  <p>
+    More javascript projects available on
+     
+    <a
+      href="https://github.com/mmontes11"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      GitHub
+    </a>
+    .
+  </p>
+</div>
+`;

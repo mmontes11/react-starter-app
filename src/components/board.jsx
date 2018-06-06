@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import BoardRow from "components/boardRow";
 import Square from "components/square";
 
 class Board extends React.Component {
@@ -22,14 +21,18 @@ class Board extends React.Component {
         squares.push(this._renderSquare(squareIndex));
         squareIndex += 1;
       }
-      rows.push(<BoardRow key={i} squares={squares} />);
+      rows.push(
+        <div key={i} className="board-row">
+          {squares}
+        </div>,
+      );
     }
     return <div>{rows}</div>;
   }
 }
 
 Board.propTypes = {
-  squares: PropTypes.arrayOf(Square).isRequired,
+  squares: PropTypes.arrayOf(PropTypes.string).isRequired,
   onClick: PropTypes.func.isRequired,
 };
 
