@@ -1,0 +1,408 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/header renders a header in / path 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "pathname": "/",
+        "search": "",
+        "state": undefined,
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <React.Fragment>
+    <Header />
+    <Route
+      component={[Function]}
+      path="/game"
+    />
+    <Route
+      component={[Function]}
+      path="/about"
+    />
+  </React.Fragment>
+</Router>
+`;
+
+exports[`components/header renders a header in /about path 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/about",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/about",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/about",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Header>
+      <header
+        className="header"
+      >
+        <img
+          alt="logo"
+          className="header-logo"
+          src="test-file-stub"
+        />
+        <h1
+          className="header-title"
+        >
+          React starter app
+        </h1>
+        <div
+          className="header-links"
+        >
+          <NavLink
+            activeClassName="header-link-active"
+            ariaCurrent="true"
+            className="header-link"
+            to="/game"
+          >
+            <Route
+              path="/game"
+            >
+              <Link
+                aria-current={false}
+                className="header-link"
+                replace={false}
+                to="/game"
+              >
+                <a
+                  aria-current={false}
+                  className="header-link"
+                  href="/game"
+                  onClick={[Function]}
+                >
+                  Game
+                </a>
+              </Link>
+            </Route>
+          </NavLink>
+          <NavLink
+            activeClassName="header-link-active"
+            ariaCurrent="true"
+            className="header-link"
+            to="/about"
+          >
+            <Route
+              path="/about"
+            >
+              <Link
+                aria-current="true"
+                className="header-link header-link-active"
+                replace={false}
+                style={Object {}}
+                to="/about"
+              >
+                <a
+                  aria-current="true"
+                  className="header-link header-link-active"
+                  href="/about"
+                  onClick={[Function]}
+                  style={Object {}}
+                >
+                  About
+                </a>
+              </Link>
+            </Route>
+          </NavLink>
+        </div>
+      </header>
+    </Header>
+    <Route
+      component={[Function]}
+      path="/game"
+    />
+    <Route
+      component={[Function]}
+      path="/about"
+    >
+      <Dummy
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "pathname": "/about",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/about",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "pathname": "/about",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/about",
+            "url": "/about",
+          }
+        }
+      >
+        <div>
+          Dummy
+        </div>
+      </Dummy>
+    </Route>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`components/header renders a header in /game path 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/game",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/game",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/game",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Header>
+      <header
+        className="header"
+      >
+        <img
+          alt="logo"
+          className="header-logo"
+          src="test-file-stub"
+        />
+        <h1
+          className="header-title"
+        >
+          React starter app
+        </h1>
+        <div
+          className="header-links"
+        >
+          <NavLink
+            activeClassName="header-link-active"
+            ariaCurrent="true"
+            className="header-link"
+            to="/game"
+          >
+            <Route
+              path="/game"
+            >
+              <Link
+                aria-current="true"
+                className="header-link header-link-active"
+                replace={false}
+                style={Object {}}
+                to="/game"
+              >
+                <a
+                  aria-current="true"
+                  className="header-link header-link-active"
+                  href="/game"
+                  onClick={[Function]}
+                  style={Object {}}
+                >
+                  Game
+                </a>
+              </Link>
+            </Route>
+          </NavLink>
+          <NavLink
+            activeClassName="header-link-active"
+            ariaCurrent="true"
+            className="header-link"
+            to="/about"
+          >
+            <Route
+              path="/about"
+            >
+              <Link
+                aria-current={false}
+                className="header-link"
+                replace={false}
+                to="/about"
+              >
+                <a
+                  aria-current={false}
+                  className="header-link"
+                  href="/about"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </Link>
+            </Route>
+          </NavLink>
+        </div>
+      </header>
+    </Header>
+    <Route
+      component={[Function]}
+      path="/game"
+    >
+      <Dummy
+        history={
+          Object {
+            "action": "POP",
+            "block": [Function],
+            "canGo": [Function],
+            "createHref": [Function],
+            "entries": Array [
+              Object {
+                "hash": "",
+                "pathname": "/game",
+                "search": "",
+                "state": undefined,
+              },
+            ],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "index": 0,
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/game",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+        location={
+          Object {
+            "hash": "",
+            "pathname": "/game",
+            "search": "",
+            "state": undefined,
+          }
+        }
+        match={
+          Object {
+            "isExact": true,
+            "params": Object {},
+            "path": "/game",
+            "url": "/game",
+          }
+        }
+      >
+        <div>
+          Dummy
+        </div>
+      </Dummy>
+    </Route>
+    <Route
+      component={[Function]}
+      path="/about"
+    />
+  </Router>
+</MemoryRouter>
+`;

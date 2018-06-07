@@ -2,7 +2,6 @@ import React from "react";
 import { connect } from "react-redux";
 import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
-import shortid from "shortid";
 import Board from "components/board";
 import { stepForward, jumpToStep } from "actions/step";
 import { nextPlayer } from "actions/next";
@@ -36,7 +35,7 @@ class Game extends React.Component {
     const moves = history.map((stepHistory, move) => {
       const desc = move ? `Go to move #${move}` : "Go to game start";
       return (
-        <li key={shortid.generate()}>
+        <li key={btoa(move)}>
           <button className="button-moves" onClick={() => this._jumpTo(move)}>
             {desc}
           </button>
@@ -88,9 +87,4 @@ const mapStateToProps = ({ step, xIsNext, history }) => {
   };
 };
 
-export default withRouter(
-  connect(
-    mapStateToProps,
-    { stepForward, jumpToStep, nextPlayer, setHistory },
-  )(Game),
-);
+export default withRouter(connect(mapStateToProps, { stepForward, jumpToStep, nextPlayer, setHistory })(Game));

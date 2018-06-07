@@ -4,15 +4,7 @@
   "private": false,
   "main": "dist/index.js",
   "description": "React + Redux + SASS + Eslint + Webpack starter app",
-  "keywords": [
-    "react",
-    "redux",
-    "sass",
-    "eslint",
-    "webpack",
-    "jest",
-    "enzyme"
-  ],
+  "keywords": ["react", "redux", "sass", "eslint", "webpack", "jest", "enzyme"],
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "lint": "eslint --ignore-path .gitignore . --ext js,jsx",
@@ -34,8 +26,7 @@
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0",
-    "shortid": "^2.2.8"
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -58,6 +49,7 @@
     "jest": "^23.1.0",
     "mini-css-extract-plugin": "^0.4.0",
     "node-sass": "^4.9.0",
+    "redux-mock-store": "^1.5.1",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "url-loader": "^1.0.1",
