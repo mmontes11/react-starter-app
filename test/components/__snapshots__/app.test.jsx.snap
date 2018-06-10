@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/app renders the app 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      "/",
+    ]
+  }
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "REPLACE",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/game",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/game",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <App
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <Provider
+        store={
+          Object {
+            "clearActions": [Function],
+            "dispatch": [Function],
+            "getActions": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+        }
+      >
+        <Header>
+          <header
+            className="header"
+          >
+            <img
+              alt="logo"
+              className="header-logo"
+              src="test-file-stub"
+            />
+            <h1
+              className="header-title"
+            >
+              React starter app
+            </h1>
+            <div
+              className="header-links"
+            >
+              <NavLink
+                activeClassName="header-link-active"
+                ariaCurrent="true"
+                className="header-link"
+                to="/game"
+              >
+                <Route
+                  path="/game"
+                >
+                  <Link
+                    aria-current="true"
+                    className="header-link header-link-active"
+                    replace={false}
+                    style={Object {}}
+                    to="/game"
+                  >
+                    <a
+                      aria-current="true"
+                      className="header-link header-link-active"
+                      href="/game"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      Game
+                    </a>
+                  </Link>
+                </Route>
+              </NavLink>
+              <NavLink
+                activeClassName="header-link-active"
+                ariaCurrent="true"
+                className="header-link"
+                to="/about"
+              >
+                <Route
+                  path="/about"
+                >
+                  <Link
+                    aria-current={false}
+                    className="header-link"
+                    replace={false}
+                    to="/about"
+                  >
+                    <a
+                      aria-current={false}
+                      className="header-link"
+                      href="/about"
+                      onClick={[Function]}
+                    >
+                      About
+                    </a>
+                  </Link>
+                </Route>
+              </NavLink>
+            </div>
+          </header>
+        </Header>
+        <Main>
+          <main>
+            <Switch>
+              <Route
+                component={[Function]}
+                computedMatch={
+                  Object {
+                    "isExact": true,
+                    "params": Object {},
+                    "path": "/game",
+                    "url": "/game",
+                  }
+                }
+                location={
+                  Object {
+                    "hash": "",
+                    "pathname": "/game",
+                    "search": "",
+                    "state": undefined,
+                  }
+                }
+                path="/game"
+              >
+                <withRouter(Connect(Game))
+                  history={
+                    Object {
+                      "action": "REPLACE",
+                      "block": [Function],
+                      "canGo": [Function],
+                      "createHref": [Function],
+                      "entries": Array [
+                        Object {
+                          "hash": "",
+                          "pathname": "/game",
+                          "search": "",
+                          "state": undefined,
+                        },
+                      ],
+                      "go": [Function],
+                      "goBack": [Function],
+                      "goForward": [Function],
+                      "index": 0,
+                      "length": 1,
+                      "listen": [Function],
+                      "location": Object {
+                        "hash": "",
+                        "pathname": "/game",
+                        "search": "",
+                        "state": undefined,
+                      },
+                      "push": [Function],
+                      "replace": [Function],
+                    }
+                  }
+                  location={
+                    Object {
+                      "hash": "",
+                      "pathname": "/game",
+                      "search": "",
+                      "state": undefined,
+                    }
+                  }
+                  match={
+                    Object {
+                      "isExact": true,
+                      "params": Object {},
+                      "path": "/game",
+                      "url": "/game",
+                    }
+                  }
+                >
+                  <Route
+                    render={[Function]}
+                  >
+                    <Connect(Game)
+                      history={
+                        Object {
+                          "action": "REPLACE",
+                          "block": [Function],
+                          "canGo": [Function],
+                          "createHref": [Function],
+                          "entries": Array [
+                            Object {
+                              "hash": "",
+                              "pathname": "/game",
+                              "search": "",
+                              "state": undefined,
+                            },
+                          ],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "index": 0,
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/game",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        }
+                      }
+                      location={
+                        Object {
+                          "hash": "",
+                          "pathname": "/game",
+                          "search": "",
+                          "state": undefined,
+                        }
+                      }
+                      match={
+                        Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/game",
+                          "url": "/game",
+                        }
+                      }
+                    >
+                      <Game
+                        currentStepSquares={
+                          Array [
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                            null,
+                          ]
+                        }
+                        history={
+                          Array [
+                            Object {
+                              "squares": Array [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                              ],
+                            },
+                          ]
+                        }
+                        jumpToStep={[Function]}
+                        location={
+                          Object {
+                            "hash": "",
+                            "pathname": "/game",
+                            "search": "",
+                            "state": undefined,
+                          }
+                        }
+                        match={
+                          Object {
+                            "isExact": true,
+                            "params": Object {},
+                            "path": "/game",
+                            "url": "/game",
+                          }
+                        }
+                        nextPlayer={[Function]}
+                        setHistory={[Function]}
+                        step={0}
+                        stepForward={[Function]}
+                        winner={null}
+                        xIsNext={true}
+                      >
+                        <div
+                          className="game"
+                        >
+                          <div
+                            className="game-board"
+                          >
+                            <Board
+                              onClick={[Function]}
+                              squares={
+                                Array [
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                  null,
+                                ]
+                              }
+                            >
+                              <div>
+                                <div
+                                  className="board-row"
+                                  key="0"
+                                >
+                                  <Square
+                                    key="0"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                  <Square
+                                    key="1"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                  <Square
+                                    key="2"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                </div>
+                                <div
+                                  className="board-row"
+                                  key="1"
+                                >
+                                  <Square
+                                    key="3"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                  <Square
+                                    key="4"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                  <Square
+                                    key="5"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                </div>
+                                <div
+                                  className="board-row"
+                                  key="2"
+                                >
+                                  <Square
+                                    key="6"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                  <Square
+                                    key="7"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                  <Square
+                                    key="8"
+                                    onClick={[Function]}
+                                    value={null}
+                                  >
+                                    <button
+                                      className="square"
+                                      onClick={[Function]}
+                                    />
+                                  </Square>
+                                </div>
+                              </div>
+                            </Board>
+                          </div>
+                          <div
+                            className="game-info"
+                          >
+                            <div>
+                              Next player: X
+                            </div>
+                            <ul>
+                              <li
+                                key="MA=="
+                              >
+                                <button
+                                  className="button-moves"
+                                  onClick={[Function]}
+                                >
+                                  Go to game start
+                                </button>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </Game>
+                    </Connect(Game)>
+                  </Route>
+                </withRouter(Connect(Game))>
+              </Route>
+            </Switch>
+          </main>
+        </Main>
+      </Provider>
+    </App>
+  </Router>
+</MemoryRouter>
+`;

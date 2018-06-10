@@ -4,6 +4,7 @@ module.exports = {
   },
   collectCoverage: true,
   collectCoverageFrom: ["src/**/*.{js,jsx}"],
+  coveragePathIgnorePatterns: ["src/index.js"],
   moduleDirectories: ["node_modules", "./src"],
   moduleNameMapper: {
     "\\.(jpg|jpeg|png|svg)$": "<rootDir>/test/__mocks__/fileMock.js",

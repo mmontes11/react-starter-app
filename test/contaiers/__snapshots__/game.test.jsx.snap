@@ -1,0 +1,1293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`contaiers/game renders a game in first step 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <withRouter(Connect(Game))>
+        <Route
+          render={[Function]}
+        >
+          <Connect(Game)
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <Game
+              currentStepSquares={
+                Array [
+                  "X",
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                ]
+              }
+              history={
+                Array [
+                  Object {
+                    "squares": Array [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                ]
+              }
+              jumpToStep={[Function]}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+              nextPlayer={[Function]}
+              setHistory={[Function]}
+              step={1}
+              stepForward={[Function]}
+              winner={null}
+              xIsNext={false}
+            >
+              <div
+                className="game"
+              >
+                <div
+                  className="game-board"
+                >
+                  <Board
+                    onClick={[Function]}
+                    squares={
+                      Array [
+                        "X",
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                      ]
+                    }
+                  >
+                    <div>
+                      <div
+                        className="board-row"
+                        key="0"
+                      >
+                        <Square
+                          key="0"
+                          onClick={[Function]}
+                          value="X"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            X
+                          </button>
+                        </Square>
+                        <Square
+                          key="1"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="2"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                      <div
+                        className="board-row"
+                        key="1"
+                      >
+                        <Square
+                          key="3"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="4"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="5"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                      <div
+                        className="board-row"
+                        key="2"
+                      >
+                        <Square
+                          key="6"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="7"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="8"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                    </div>
+                  </Board>
+                </div>
+                <div
+                  className="game-info"
+                >
+                  <div>
+                    Next player: O
+                  </div>
+                  <ul>
+                    <li
+                      key="MA=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to game start
+                      </button>
+                    </li>
+                    <li
+                      key="MQ=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #1
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Game>
+          </Connect(Game)>
+        </Route>
+      </withRouter(Connect(Game))>
+    </Provider>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`contaiers/game renders a game in initial state 1`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <withRouter(Connect(Game))>
+        <Route
+          render={[Function]}
+        >
+          <Connect(Game)
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <Game
+              currentStepSquares={
+                Array [
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                  null,
+                ]
+              }
+              history={
+                Array [
+                  Object {
+                    "squares": Array [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                ]
+              }
+              jumpToStep={[Function]}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+              nextPlayer={[Function]}
+              setHistory={[Function]}
+              step={0}
+              stepForward={[Function]}
+              winner={null}
+              xIsNext={true}
+            >
+              <div
+                className="game"
+              >
+                <div
+                  className="game-board"
+                >
+                  <Board
+                    onClick={[Function]}
+                    squares={
+                      Array [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                      ]
+                    }
+                  >
+                    <div>
+                      <div
+                        className="board-row"
+                        key="0"
+                      >
+                        <Square
+                          key="0"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="1"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="2"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                      <div
+                        className="board-row"
+                        key="1"
+                      >
+                        <Square
+                          key="3"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="4"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="5"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                      <div
+                        className="board-row"
+                        key="2"
+                      >
+                        <Square
+                          key="6"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="7"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="8"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                    </div>
+                  </Board>
+                </div>
+                <div
+                  className="game-info"
+                >
+                  <div>
+                    Next player: X
+                  </div>
+                  <ul>
+                    <li
+                      key="MA=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to game start
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Game>
+          </Connect(Game)>
+        </Route>
+      </withRouter(Connect(Game))>
+    </Provider>
+  </Router>
+</MemoryRouter>
+`;
+
+exports[`contaiers/game simulates a click in history 1`] = `
+Object {
+  "history": Array [
+    Object {
+      "squares": Array [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+  ],
+  "step": 0,
+  "xIsNext": true,
+}
+`;
+
+exports[`contaiers/game simulates clicks in squares 1`] = `
+Object {
+  "history": Array [
+    Object {
+      "squares": Array [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        "O",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        "O",
+        "X",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        "O",
+        "X",
+        "O",
+        null,
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        "O",
+        "X",
+        "O",
+        "X",
+        null,
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        "O",
+        "X",
+        "O",
+        "X",
+        "O",
+        null,
+        null,
+        null,
+      ],
+    },
+    Object {
+      "squares": Array [
+        "X",
+        "O",
+        "X",
+        "O",
+        "X",
+        "O",
+        "X",
+        null,
+        null,
+      ],
+    },
+  ],
+  "step": 7,
+  "xIsNext": false,
+}
+`;
+
+exports[`contaiers/game simulates clicks in squares 2`] = `
+<MemoryRouter
+  keyLength={0}
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        }
+      }
+    >
+      <withRouter(Connect(Game))>
+        <Route
+          render={[Function]}
+        >
+          <Connect(Game)
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "canGo": [Function],
+                "createHref": [Function],
+                "entries": Array [
+                  Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                ],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "index": 0,
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <Game
+              currentStepSquares={
+                Array [
+                  "X",
+                  "O",
+                  "X",
+                  "O",
+                  "X",
+                  "O",
+                  "X",
+                  null,
+                  null,
+                ]
+              }
+              history={
+                Array [
+                  Object {
+                    "squares": Array [
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      "O",
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      "O",
+                      "X",
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      "O",
+                      "X",
+                      "O",
+                      null,
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      "O",
+                      "X",
+                      "O",
+                      "X",
+                      null,
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      "O",
+                      "X",
+                      "O",
+                      "X",
+                      "O",
+                      null,
+                      null,
+                      null,
+                    ],
+                  },
+                  Object {
+                    "squares": Array [
+                      "X",
+                      "O",
+                      "X",
+                      "O",
+                      "X",
+                      "O",
+                      "X",
+                      null,
+                      null,
+                    ],
+                  },
+                ]
+              }
+              jumpToStep={[Function]}
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+              nextPlayer={[Function]}
+              setHistory={[Function]}
+              step={7}
+              stepForward={[Function]}
+              winner="X"
+              xIsNext={false}
+            >
+              <div
+                className="game"
+              >
+                <div
+                  className="game-board"
+                >
+                  <Board
+                    onClick={[Function]}
+                    squares={
+                      Array [
+                        "X",
+                        "O",
+                        "X",
+                        "O",
+                        "X",
+                        "O",
+                        "X",
+                        null,
+                        null,
+                      ]
+                    }
+                  >
+                    <div>
+                      <div
+                        className="board-row"
+                        key="0"
+                      >
+                        <Square
+                          key="0"
+                          onClick={[Function]}
+                          value="X"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            X
+                          </button>
+                        </Square>
+                        <Square
+                          key="1"
+                          onClick={[Function]}
+                          value="O"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            O
+                          </button>
+                        </Square>
+                        <Square
+                          key="2"
+                          onClick={[Function]}
+                          value="X"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            X
+                          </button>
+                        </Square>
+                      </div>
+                      <div
+                        className="board-row"
+                        key="1"
+                      >
+                        <Square
+                          key="3"
+                          onClick={[Function]}
+                          value="O"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            O
+                          </button>
+                        </Square>
+                        <Square
+                          key="4"
+                          onClick={[Function]}
+                          value="X"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            X
+                          </button>
+                        </Square>
+                        <Square
+                          key="5"
+                          onClick={[Function]}
+                          value="O"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            O
+                          </button>
+                        </Square>
+                      </div>
+                      <div
+                        className="board-row"
+                        key="2"
+                      >
+                        <Square
+                          key="6"
+                          onClick={[Function]}
+                          value="X"
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          >
+                            X
+                          </button>
+                        </Square>
+                        <Square
+                          key="7"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                        <Square
+                          key="8"
+                          onClick={[Function]}
+                          value={null}
+                        >
+                          <button
+                            className="square"
+                            onClick={[Function]}
+                          />
+                        </Square>
+                      </div>
+                    </div>
+                  </Board>
+                </div>
+                <div
+                  className="game-info"
+                >
+                  <div>
+                    Winner: X
+                  </div>
+                  <ul>
+                    <li
+                      key="MA=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to game start
+                      </button>
+                    </li>
+                    <li
+                      key="MQ=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #1
+                      </button>
+                    </li>
+                    <li
+                      key="Mg=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #2
+                      </button>
+                    </li>
+                    <li
+                      key="Mw=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #3
+                      </button>
+                    </li>
+                    <li
+                      key="NA=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #4
+                      </button>
+                    </li>
+                    <li
+                      key="NQ=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #5
+                      </button>
+                    </li>
+                    <li
+                      key="Ng=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #6
+                      </button>
+                    </li>
+                    <li
+                      key="Nw=="
+                    >
+                      <button
+                        className="button-moves"
+                        onClick={[Function]}
+                      >
+                        Go to move #7
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Game>
+          </Connect(Game)>
+        </Route>
+      </withRouter(Connect(Game))>
+    </Provider>
+  </Router>
+</MemoryRouter>
+`;
