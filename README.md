@@ -53,7 +53,7 @@ $ docker build -t react-starter-app .
 
 Image available on [Docker Hub](https://hub.docker.com/r/mmontes11/react-starter-app/)
 
-### Build Image
+### Production
 
 ```bash
 $ ./run-production.sh
