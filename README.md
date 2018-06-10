@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mmontes11/react-starter-app.svg?branch=master)](https://travis-ci.org/mmontes11/react-starter-app)
 [![Coverage Status](https://coveralls.io/repos/github/mmontes11/react-starter-app/badge.svg?branch=master)](https://coveralls.io/github/mmontes11/react-starter-app?branch=master)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Starting point for your React projects.
 
