@@ -1,18 +1,14 @@
 {
   "name": "react-starter-app",
   "version": "0.1.0",
+  "author": "Martín Montes <martin11lrx@gmail.com>",
+  "description": "Starting point for your React projects.",
+  "main": "src/index.js",
   "private": false,
-  "main": "dist/index.js",
-  "description": "React + Redux + SASS + Eslint + Webpack + Jest + Enzyme starter app",
-  "keywords": [
-    "react",
-    "redux",
-    "sass",
-    "eslint",
-    "webpack",
-    "jest",
-    "enzyme"
-  ],
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=5.0.0"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "lint": "eslint --ignore-path .gitignore . --ext js,jsx",
@@ -25,6 +21,27 @@
     "prebuild": "npm run test && npm run clean",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmontes11/react-starter-app.git"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "redux",
+    "redux-thunk",
+    "sass",
+    "jest",
+    "enzyme",
+    "eslint",
+    "npm",
+    "babel",
+    "webpack",
+    "travis",
+    "coveralls",
+    "serve",
+    "docker"
+  ],
   "dependencies": {
     "cross-env": "^5.1.6",
     "prop-types": "^15.6.1",
