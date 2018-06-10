@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "main": "dist/index.js",
-  "description": "React + Redux + SASS + Eslint + Webpack starter app",
+  "description": "React + Redux + SASS + Eslint + Webpack + Jest + Enzyme starter app",
   "keywords": [
     "react",
     "redux",
@@ -21,6 +21,7 @@
     "pretest": "npm run lint:fix",
     "test": "cross-env NODE_ENV=test jest",
     "test:watch": "cross-env NODE_ENV=test jest --watch",
+    "coverage": "cat ./coverage/lcov.info | coveralls",
     "prebuild": "npm run test && npm run clean",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
@@ -44,6 +45,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "coveralls": "^3.0.0",
     "css-loader": "^0.28.11",
     "deep-freeze": "0.0.1",
     "enzyme": "^3.3.0",

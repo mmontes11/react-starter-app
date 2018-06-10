@@ -8,3 +8,5 @@ git:
   depth: 3
 script:
   - npm test
+after_success:
+  - npm run coverage
