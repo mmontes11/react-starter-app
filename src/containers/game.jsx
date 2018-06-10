@@ -87,4 +87,9 @@ const mapStateToProps = ({ step, xIsNext, history }) => {
   };
 };
 
-export default withRouter(connect(mapStateToProps, { stepForward, jumpToStep, nextPlayer, setHistory })(Game));
+export default withRouter(
+  connect(
+    mapStateToProps,
+    { stepForward, jumpToStep, nextPlayer, setHistory },
+  )(Game),
+);

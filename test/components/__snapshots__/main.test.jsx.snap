@@ -124,9 +124,7 @@ exports[`components/header renders a main in / path 1`] = `
                   }
                 }
               >
-                <Route
-                  render={[Function]}
-                >
+                <Route>
                   <Connect(Game)
                     history={
                       Object {
@@ -680,9 +678,7 @@ exports[`components/header renders a main in /game path 1`] = `
                   }
                 }
               >
-                <Route
-                  render={[Function]}
-                >
+                <Route>
                   <Connect(Game)
                     history={
                       Object {
@@ -1074,9 +1070,7 @@ exports[`components/header renders a main in /whatever path 1`] = `
                   }
                 }
               >
-                <Route
-                  render={[Function]}
-                >
+                <Route>
                   <Connect(Game)
                     history={
                       Object {

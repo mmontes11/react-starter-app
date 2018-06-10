@@ -84,22 +84,22 @@ exports[`components/app renders the app 1`] = `
             >
               <NavLink
                 activeClassName="header-link-active"
-                ariaCurrent="true"
+                aria-current="page"
                 className="header-link"
                 to="/game"
               >
                 <Route
-                  path="/game"
+                  path="\\\\/game"
                 >
                   <Link
-                    aria-current="true"
+                    aria-current="page"
                     className="header-link header-link-active"
                     replace={false}
                     style={Object {}}
                     to="/game"
                   >
                     <a
-                      aria-current="true"
+                      aria-current="page"
                       className="header-link header-link-active"
                       href="/game"
                       onClick={[Function]}
@@ -112,21 +112,21 @@ exports[`components/app renders the app 1`] = `
               </NavLink>
               <NavLink
                 activeClassName="header-link-active"
-                ariaCurrent="true"
+                aria-current="page"
                 className="header-link"
                 to="/about"
               >
                 <Route
-                  path="/about"
+                  path="\\\\/about"
                 >
                   <Link
-                    aria-current={false}
+                    aria-current={null}
                     className="header-link"
                     replace={false}
                     to="/about"
                   >
                     <a
-                      aria-current={false}
+                      aria-current={null}
                       className="header-link"
                       href="/about"
                       onClick={[Function]}
@@ -210,9 +210,7 @@ exports[`components/app renders the app 1`] = `
                     }
                   }
                 >
-                  <Route
-                    render={[Function]}
-                  >
+                  <Route>
                     <Connect(Game)
                       history={
                         Object {

@@ -4,7 +4,15 @@
   "private": false,
   "main": "dist/index.js",
   "description": "React + Redux + SASS + Eslint + Webpack starter app",
-  "keywords": ["react", "redux", "sass", "eslint", "webpack", "jest", "enzyme"],
+  "keywords": [
+    "react",
+    "redux",
+    "sass",
+    "eslint",
+    "webpack",
+    "jest",
+    "enzyme"
+  ],
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "lint": "eslint --ignore-path .gitignore . --ext js,jsx",

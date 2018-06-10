@@ -49,9 +49,7 @@ exports[`contaiers/game renders a game in first step 1`] = `
       }
     >
       <withRouter(Connect(Game))>
-        <Route
-          render={[Function]}
-        >
+        <Route>
           <Connect(Game)
             history={
               Object {
@@ -389,9 +387,7 @@ exports[`contaiers/game renders a game in initial state 1`] = `
       }
     >
       <withRouter(Connect(Game))>
-        <Route
-          render={[Function]}
-        >
+        <Route>
           <Connect(Game)
             history={
               Object {
@@ -851,9 +847,7 @@ exports[`contaiers/game simulates clicks in squares 2`] = `
       }
     >
       <withRouter(Connect(Game))>
-        <Route
-          render={[Function]}
-        >
+        <Route>
           <Connect(Game)
             history={
               Object {
