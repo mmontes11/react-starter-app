@@ -6,13 +6,15 @@ const About = () => (
       Built by{" "}
       <a href="https://mmontes11.github.io/" target="_blank" rel="noopener noreferrer">
         Martín Montes
-      </a>.
+      </a>
+      .
     </p>
     <p>
       More javascript projects available on{" "}
       <a href="https://github.com/mmontes11" target="_blank" rel="noopener noreferrer">
         GitHub
-      </a>.
+      </a>
+      .
     </p>
   </div>
 );

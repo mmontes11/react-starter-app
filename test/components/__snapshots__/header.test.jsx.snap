@@ -33,17 +33,15 @@ exports[`components/header renders a header in / path 1`] = `
     }
   }
 >
-  <React.Fragment>
-    <Header />
-    <Route
-      component={[Function]}
-      path="/game"
-    />
-    <Route
-      component={[Function]}
-      path="/about"
-    />
-  </React.Fragment>
+  <Header />
+  <Route
+    component={[Function]}
+    path="/game"
+  />
+  <Route
+    component={[Function]}
+    path="/about"
+  />
 </Router>
 `;
 
